@@ -31,7 +31,6 @@ class ExampleWork extends React.Component {
     return (
       <span>
         <section className="section section--alignCentered section--description">
-
           { this.props.work.map( (example, idx) => {
               return (
                 <ExampleWorkBubble example={example} key={idx}
@@ -60,7 +59,7 @@ class ExampleWorkBubble extends React.Component {
                className="section__exampleImage"
                src={ example.image.src }/>
           <dl className="color--cloud">
-            <dt className="section__exampleTitle section__text--centered ">
+            <dt className="section__exampleTitle section__text--centered">
               { example.title }
             </dt>
             <dd></dd>

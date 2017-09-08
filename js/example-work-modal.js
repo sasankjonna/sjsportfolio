@@ -28,6 +28,7 @@ class ExampleWorkModal extends React.Component {
           </p>
         </div>
       </div>
+
     )
   };
 };

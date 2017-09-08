@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robin-acloud/my-portfolio.git"
+    "url": "git+https://github.com/sasankjonna/sjsportfolio"
   },
-  "author": "Robin Norwood <robin@acloud.guru>",
+  "author": "SASANKA JONNA <j.sasank@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/robin-acloud/my-portfolio/issues"
+    "url": "https://github.com/sasankjonna/sjsportfolio/issues"
   },
-  "homepage": "https://github.com/robin-acloud/my-portfolio#readme",
+  "homepage": "https://github.com/sasankjonna/sjsportfolio#readme",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"

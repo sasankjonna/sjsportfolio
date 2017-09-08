@@ -1,13 +1,18 @@
 version: 0.1
 
 phases:
+  pre_build:
+    commands:
+      - npm install
+      - npm test
   build:
     commands:
-      - echo Nothing to do yet
+      - npm run webpack
 artifacts:
   files:
-    - index.HTML
+    - index.html
     - favicon.ico
-    - Sasanka_Jonna_NET.pdf
-    - styles/main.CSS
+    - RobinNorwood-Resume.pdf
+    - styles/main.css
     - images/*
+    - dist/bundle.js

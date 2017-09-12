@@ -89,6 +89,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 5rem;
 }
 
+.section1 {
+  font-size: 3.2rem;
+  min-height: 1vh;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .section--alignCentered {
   text-align: center;
 }
@@ -178,7 +186,12 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   font-size: 3rem;
 }
-
+.alignDiv {
+  text-align: center;
+}
+.invisibleDiv {
+  display: none;
+}
 
 /*
   Modal

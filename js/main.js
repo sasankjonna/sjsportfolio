@@ -6,20 +6,20 @@ const myWork = [
   {
     'title': "My Certifications",
     'href': "./Certification.html",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'desc': "Certifications are not a cover up for lack of experience, but they are a value add and also add credibility.",
     'image': {
       'desc': "example screenshot of a project involving code",
-      'src': "images/Certified.jpg",
+      'src': "images/Certification.jpg",
       'comment': ""
     }
   },
   {
-    'title': "My Work",
+    'title': "My Skills",
     'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'desc': "Few of the technology skills that I am either learning, comfortable or good at...",
     'image': {
-      'desc': "A Serverless Portfolio",
-      'src': "images/example2.png",
+      'desc': "My Skills",
+      'src': "images/Skills.png",
       'comment': ""
     }
   },

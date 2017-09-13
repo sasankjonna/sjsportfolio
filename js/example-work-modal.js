@@ -5,28 +5,35 @@ class ExampleWorkModal extends React.Component {
   render() {
     let example = this.props.example;
     let modalClass = this.props.open ? 'modal--open' : 'modal--closed';
+    let imageSrc=example.image.src;
+    imageSrc=imageSrc.replace("images/","");
+    imageSrc=imageSrc.replace(".jpg","");
+    imageSrc=imageSrc.replace(".png","");
 
     return (
-      <div className={"background--skyBlue " + modalClass}>
-        <span className="color--cloud modal__closeButton"
-          onClick={this.props.closeModal}>
-          <i className="fa fa-window-close-o"></i>
-        </span>
-        <img alt={ example.image.desc }
-             className="modal__image"
-             src={ example.image.src }/>
-        <div className="color--cloud modal__text">
-          <h2 className="modal__title">
-            { example.title }
-          </h2>
-          <a className="color--skyBlue modal__link"
-             href={ example.href }>
-            Check it out
-          </a>
-          <p className="modal__description">
-            { example.desc }
-          </p>
-        </div>
+      <div className={"background--skyBlue " + modalClass +" section--alignCentered"} >
+      <link rel="stylesheet" href="node_modules/react-responsive-carousel/lib/styles/carousel.min.css"/>
+      
+      <span className="color--cloud modal__closeButton"
+      onClick={this.props.closeModal}>
+      <i className="fa fa-window-close-o"></i>
+      </span>
+
+
+      <h3 className="modal__title1">
+      { example.title }
+      </h3>
+      <p className="modal__description1">
+      { example.desc  }
+      </p>
+
+      <div className={imageSrc =="Certification" ? 'alignDiv' : 'section_invisible'} id="CertificationCarousel-container">tikka</div>
+
+      <div className={imageSrc =="Skills" ? 'alignDiv' : 'section_invisible'} id="SkillCarousel-container">tikka</div>
+
+
+
+
       </div>
 
     )

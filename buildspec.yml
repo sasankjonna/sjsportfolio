@@ -18,3 +18,4 @@ artifacts:
     - dist/bundle.js
     - Sasanka_Jonna_Net.pdf
     - Certification.html
+    - js/*

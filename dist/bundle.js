@@ -23268,7 +23268,7 @@ var CertificationCarousel = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     { className: 'alignDiv' },
-                    _react2.default.createElement('img', { src: 'images/AWSSAA.jpg' }),
+                    _react2.default.createElement('img', { src: 'images/AWS.jpg' }),
                     _react2.default.createElement(
                         'p',
                         { className: 'legend' },
@@ -23278,7 +23278,7 @@ var CertificationCarousel = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     null,
-                    _react2.default.createElement('img', { src: 'images/AWSSAA.jpg' }),
+                    _react2.default.createElement('img', { src: 'images/AWS.jpg' }),
                     _react2.default.createElement(
                         'p',
                         { className: 'legend' },
@@ -23288,7 +23288,7 @@ var CertificationCarousel = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     null,
-                    _react2.default.createElement('img', { src: 'images/AWSSAA.jpg' }),
+                    _react2.default.createElement('img', { src: 'images/AWS.jpg' }),
                     _react2.default.createElement(
                         'p',
                         { className: 'legend' },

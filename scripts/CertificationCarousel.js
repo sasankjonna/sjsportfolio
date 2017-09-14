@@ -7,15 +7,15 @@ class CertificationCarousel extends React.Component {
         return (
             <Carousel autoPlay dynamicHeight >
                 <div  className="alignDiv">
-                    <img src="images/AWSSAA.jpg" />
+                    <img src="images/AWS.jpg" />
                     <p className="legend">Amazon Web Services - Solution Architect Associate</p>
                 </div>
                 <div >
-                    <img src="images/AWSSAA.jpg"  />
+                    <img src="images/AWS.jpg"  />
                     <p className="legend">Amazon Web Services - Solution Architect Associate</p>
                 </div>
                 <div >
-                    <img src="images/AWSSAA.jpg"  />
+                    <img src="images/AWS.jpg"  />
                     <p className="legend">Amazon Web Services - Solution Architect Associate</p>
                 </div>
             </Carousel>

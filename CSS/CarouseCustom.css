@@ -5,7 +5,8 @@
 
 
 #CertificationCarousel-container {
-  display: none;
+  width: 700px;
+   margin: auto;
 
 }
 
@@ -13,7 +14,7 @@
 #SkillCarousel-container {
   width: 700px;
    margin: auto;
-   
+
 
 
 }

@@ -4,8 +4,7 @@ phases:
   pre_build:
     commands:
       - npm install
-      - npm test
-  build:
+build:
     commands:
       - npm run webpack
 artifacts:

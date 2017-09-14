@@ -13,6 +13,7 @@ This is my professional portfolio. It uses AWS and ReactJS.
 - Google Fonts
 - Python 2.7
 - ReactJS
+- babel
 
 ## AWS Services Used
 - S3 (file storage and build storage)

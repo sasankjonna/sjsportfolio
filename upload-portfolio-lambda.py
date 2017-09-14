@@ -25,7 +25,7 @@ def lambda_handler(event, context):
 
         s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
 
-        portfolio_bucket = s3.Bucket('portfolio.sjcloud.info')
+        portfolio_bucket = s3.Bucket('sasankajonna.sjcloud.info')
         build_bucket = s3.Bucket(location["bucketName"])
 
         portfolio_zip = StringIO.StringIO()

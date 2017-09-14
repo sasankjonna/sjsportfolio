@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: ['./js/main.js','./js/example-work.js','./js/example-work-modal.js','./js/CertificationCarousel.js','./js/SkillsCarousel.js','./js/WallPaint.js'],
+  entry: ['./js/main.js','./js/example-work.js','./js/example-work-modal.js','./js/CertificationCarousel.js','./js/SkillsCarousel.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: "bundle.js",

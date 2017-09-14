@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 class CertificationCarousel extends React.Component {
     render() {
         return (
-            <Carousel dynamicHeight autoPlay className="alignDiv"  >
+            <Carousel autoPlay dynamicHeight >
                 <div  className="alignDiv">
                     <img src="images/AWSSAA.jpg" />
                     <p className="legend">Amazon Web Services - Solution Architect Associate</p>

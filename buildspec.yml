@@ -14,6 +14,7 @@ artifacts:
     - favicon.ico
     - RobinNorwood-Resume.pdf
     - styles/main.css
+    - styles/CarouseCustom.css
     - images/*
     - dist/bundle.js
     - Sasanka_Jonna_Net.pdf

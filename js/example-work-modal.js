@@ -10,10 +10,12 @@ class ExampleWorkModal extends React.Component {
     imageSrc=imageSrc.replace(".jpg","");
     imageSrc=imageSrc.replace(".png","");
 
+
     return (
       <div className={"background--skyBlue " + modalClass +" section--alignCentered"} >
       <link rel="stylesheet" href="node_modules/react-responsive-carousel/lib/styles/carousel.min.css"/>
-      
+      <link rel="stylesheet" href="styles/CarouseCustom.css"/>
+
       <span className="color--cloud modal__closeButton"
       onClick={this.props.closeModal}>
       <i className="fa fa-window-close-o"></i>

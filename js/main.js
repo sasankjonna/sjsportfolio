@@ -19,7 +19,7 @@ const myWork = [
     'desc': "Few of the technology skills that I am either learning, comfortable or good at...",
     'image': {
       'desc': "My Skills",
-      'src': "images/Skills.png",
+      'src': "images/Skills.jpg",
       'comment': ""
     }
   },

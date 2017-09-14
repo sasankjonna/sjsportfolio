@@ -12,11 +12,10 @@ artifacts:
   files:
     - index.html
     - favicon.ico
-    - RobinNorwood-Resume.pdf
-    - styles/main.css
-    - styles/CarouseCustom.css
+    - CSS/main.css
+    - CSS/CarouseCustom.css
     - images/*
     - dist/bundle.js
     - Sasanka_Jonna_Net.pdf
     - Certification.html
-    - js/*
+    - scripts/*

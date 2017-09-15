@@ -22,3 +22,4 @@ artifacts:
     - MyWork/css/*
     - MyWork/*
     - MyWork.html
+    - node_modules/react-responsive-carousel/*

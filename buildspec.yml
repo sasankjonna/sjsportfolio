@@ -18,3 +18,7 @@ artifacts:
     - Sasanka_Jonna_Net.pdf
     - Certification.html
     - scripts/*
+    - MyWork/js/*
+    - MyWork/css/*
+    - MyWork/*
+    - MyWork.html

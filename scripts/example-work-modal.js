@@ -33,7 +33,10 @@ class ExampleWorkModal extends React.Component {
 
       <div className={imageSrc =="Skills" ? 'alignDiv' : 'section_invisible'} id="SkillCarousel-container">tikka</div>
 
-
+      <a className={imageSrc =="Work" ? 'color--skyBlue modal__link' : 'section_invisible'}
+                  href={ example.href } target="_blank">
+                 Check it out
+               </a>
 
 
       </div>

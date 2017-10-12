@@ -11,13 +11,10 @@ class CertificationCarousel extends React.Component {
                     <p className="legend">Amazon Web Services - Solution Architect Associate</p>
                 </div>
                 <div >
-                    <img src="images/AWS.jpg"  />
-                    <p className="legend">Amazon Web Services - Solution Architect Associate</p>
+                    <img src="images/daa.jpg"  />
+                    <p className="legend">Amazon Web Services - Developer Associate</p>
                 </div>
-                <div >
-                    <img src="images/AWS.jpg"  />
-                    <p className="legend">Amazon Web Services - Solution Architect Associate</p>
-                </div>
+              
             </Carousel>
         );
     }
